@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "css"
         }
       },
       "root": "",
@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Native-Script-Angular-Demo"
+    }
+  },
+  "defaultProject": "Native-Script-Angular-Demo",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }

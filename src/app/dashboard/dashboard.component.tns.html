@@ -1,0 +1,18 @@
+<ActionBar title="Dashboard"></ActionBar>
+
+<FlexboxLayout backgroundColor="#d4d4d4" flexDirection="column" height="100%" width="100%">
+    <ListView [items]="heros" height="100%" width="100%">
+      <ng-template let-hero="item" let-i="index">
+        <FlexboxLayout flexDirection="row" class="hero" [nsRouterLink]="['/detail', '2']" >
+          <FlexboxLayout flexDirection="column">
+            <Label [text]="hero.first_name" height="50"></Label>
+            <Label [text]="hero.age" height="50"></Label>
+            <Label [text]="hero.designation" height="50"></Label>
+          </FlexboxLayout>
+          <FlexboxLayout>
+            <Image src="~/app/images/photo.png"></Image>
+          </FlexboxLayout>
+        </FlexboxLayout>
+      </ng-template>
+    </ListView>
+</FlexboxLayout>

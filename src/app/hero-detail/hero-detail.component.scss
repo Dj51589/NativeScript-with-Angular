@@ -1,0 +1,20 @@
+.detail-box {
+    height: 200px;
+    .hero {
+      border: 1px solid #d4d4d4;
+      justify-content: space-between;
+      width: 500px;
+      margin: 10px;
+      border-radius: 10px;
+      padding: 10px;
+      align-items: center;
+      height: 100%;
+    
+      img {
+        height: 80px;
+        width: 80px;
+        transform: rotate(270deg);
+        border-radius: 50%;
+      }
+    }
+}

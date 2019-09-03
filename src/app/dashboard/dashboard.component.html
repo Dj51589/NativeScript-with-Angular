@@ -1,0 +1,13 @@
+<div>Dashboard Page</div>
+<div class="flex-conatiner flex-column">
+    <div *ngFor="let hero of heros" class="flex-conatiner hero cursor-pointer" routerLink="/detail/{{hero.id}}">
+        <div class="flex-conatiner flex-column">
+            <div>{{hero.first_name}}</div>
+            <div>{{hero.age}}</div>
+            <div>{{hero.designation}}</div>
+        </div>
+        <div>
+            <img src="../../assets/images/photo.jpeg">
+        </div>
+    </div>
+</div>

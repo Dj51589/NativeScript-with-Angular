@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.flex-conatiner {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.v-align-c {
+    align-items: center;
+}
+
+.h-align-c {
+    justify-items: center;
+}
